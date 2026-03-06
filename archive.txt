@@ -1,0 +1,4 @@
+{'timestamp': '2026-03-06 11:24:01', 'serverraum': 'S1', 'temperature_c': 7.375}
+{'timestamp': '2026-03-06 11:24:22', 'serverraum': 'S1', 'temperature_c': 7.375}
+{'timestamp': '2026-03-06 11:24:32', 'serverraum': 'S1', 'temperature_c': 7.375}
+{'timestamp': '2026-03-06 11:24:42', 'serverraum': 'S1', 'temperature_c': 7.375}
