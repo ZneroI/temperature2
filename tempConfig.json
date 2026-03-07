@@ -1,3 +1,6 @@
 {
-    "path" : "systembus.txt"
+    "path" : "systembus.txt",
+    "unit" : "celsius",
+    "precision": 1,
+    "interval_seconds": 10
 }
