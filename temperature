@@ -1,0 +1,10 @@
+#!/bin/bash
+
+if [ "$1" = "--display" ]; then
+    python3 temp2.py
+elif [ "$1" = "--archive" ]; then
+    python3 temp3.py
+else
+    echo "Usage: $0 --display | --archive"
+    exit 1
+fi
