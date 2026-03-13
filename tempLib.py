@@ -2,7 +2,7 @@ import json
 import time
 import datetime
 
-from temp import read_file
+from temp import read_temp_sensor
 
 CONFIG_FILE = "tempConfig.json"
 PATH_KEY = "path"
@@ -37,7 +37,7 @@ def measure_temperature(callback):
         try:
             date = datetime.datetime.now().strftime("%Y-%m-%d")
             time_of_day = datetime.datetime.now().strftime("%H:%M:%S")
-            raw_output = read_file(settings.path)
+            raw_output = read_temp_sensor(settings.path)
             temperature = get_temperature(raw_output, settings.unit, settings.precision)
             
             callback(date, time_of_day, SERVERRAUM, temperature)
