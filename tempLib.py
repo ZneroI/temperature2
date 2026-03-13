@@ -63,7 +63,7 @@ def get_temperature(raw_output, unit, precision):
         value = temperature_celsius
         suffix = "°C"
     elif unit.lower() == KELVIN:
-        value = temperature_kelvinf
+        value = temperature_kelvin
         suffix = "K"
     elif unit.lower() == FAHRENHEIT:
         value = temperature_fahrenheit
